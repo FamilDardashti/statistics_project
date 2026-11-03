@@ -1,0 +1,3 @@
+file,rows,unique_participants,participants_with_multiple_rows,min_rows_per_participant,max_rows_per_participant,visit_key_used,visit_counts_available,min_visits_per_participant,max_visits_per_participant
+UDS,1237,1237,0,1,1,Not available,False,,
+MRI,1237,1237,0,1,1,Not available,False,,

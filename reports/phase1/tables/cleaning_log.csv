@@ -1,0 +1,27 @@
+variable,issue,count,action
+SEX,Code outside 1/2,0,Set to NaN
+EDUC,Special code [99] or outside valid range,2,Set to NaN
+MOCATOTS,Special code [88] or outside valid range,9,Set to NaN
+NACCGDS,Special code [88] or outside valid range,6,Set to NaN
+NACCBMI,Special code [888.8] or outside valid range,132,Set to NaN
+DIABETES,Outside provisional 0-2 range or code 9,8,Set to NaN
+DIABETES,Fractional values,12,Floor to integer; verify imputation method
+HYPERTEN,Outside provisional 0-2 range or code 9,12,Set to NaN
+HYPERTEN,Fractional values,21,Floor to integer; verify imputation method
+HYPERCHO,Outside provisional 0-2 range or code 9,15,Set to NaN
+HYPERCHO,Fractional values,24,Floor to integer; verify imputation method
+DEP2YRS,Outside provisional 0-2 range or code 9,15,Set to NaN
+DEP2YRS,Fractional values,16,Floor to integer; verify imputation method
+ANXIETY,Outside provisional 0-2 range or code 9,10,Set to NaN
+ANXIETY,Fractional values,152,Floor to integer; verify imputation method
+APNEA,Outside provisional 0-2 range or code 9,45,Set to NaN
+APNEA,Fractional values,168,Floor to integer; verify imputation method
+INDEPEND,Code 9 or outside observed range 1-4,2,Set to NaN
+ENTORHINAL,Zero or negative hemispheric GVOL,1,Set invalid hemisphere to NaN; require both sides
+PARAHIPPOCAMPAL,Zero or negative hemispheric GVOL,0,Set invalid hemisphere to NaN; require both sides
+FUSIFORM,Zero or negative hemispheric GVOL,0,Set invalid hemisphere to NaN; require both sides
+MIDDLETEMPORAL,Zero or negative hemispheric GVOL,0,Set invalid hemisphere to NaN; require both sides
+INFERIORTEMPORAL,Zero or negative hemispheric GVOL,0,Set invalid hemisphere to NaN; require both sides
+PRECUNEUS,Zero or negative hemispheric GVOL,0,Set invalid hemisphere to NaN; require both sides
+POSTERIORCINGULATE,Zero or negative hemispheric GVOL,1,Set invalid hemisphere to NaN; require both sides
+INFERIORPARIETAL,Zero or negative hemispheric GVOL,0,Set invalid hemisphere to NaN; require both sides

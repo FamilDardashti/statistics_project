@@ -1,0 +1,28 @@
+variable,source,domain,measurement_type,role,unit_or_coding
+NACCID,UDS/MRI,Identifier,Nominal,Join key,Participant ID
+NACCAGE,UDS,Demographic,Quantitative continuous,Covariate,Years
+SEX,UDS,Demographic,Categorical nominal,Covariate/group,1/2 codes in supplied file
+EDUC,UDS,Demographic,Quantitative discrete,Covariate,Years of education
+NACCUDSD,UDS,Diagnostic,Categorical,Grouping variable,Codes retained; labels need dictionary
+CDRSUM,UDS,Cognitive,Score,Main outcome candidate,CDR sum score
+CDRGLOB,UDS,Cognitive,Ordinal score,Cognitive descriptor,Global CDR score
+MOCATOTS,UDS,Cognitive,Score,Secondary outcome,0-30; 88 and out-of-range set missing
+MEMORY,UDS,Cognitive,Ordinal score,Cognitive descriptor,CDR memory domain
+ORIENT,UDS,Cognitive,Ordinal score,Cognitive descriptor,CDR orientation domain
+NACCGDS,UDS,Psychological,Score,Complementary variable,0-15; 88 and out-of-range set missing
+NACCBMI,UDS,Physical/medical,Quantitative continuous,Complementary variable,kg/m^2; project range 14-50
+DIABETES,UDS,Medical history,Categorical code,Control variable,Provisional 0-2; verify dictionary
+HYPERTEN,UDS,Medical history,Categorical code,Control variable,Provisional 0-2; verify dictionary
+HYPERCHO,UDS,Medical history,Categorical code,Control variable,Provisional 0-2; verify dictionary
+DEP2YRS,UDS,Medical history,Categorical code,Control variable,Provisional 0-2; verify dictionary
+ANXIETY,UDS,Medical history,Categorical code,Control variable,Provisional 0-2; verify dictionary
+APNEA,UDS,Medical history,Categorical code,Control variable,Provisional 0-2; verify dictionary
+INDEPEND,UDS,Functional,Ordinal/code-based,Control variable,Observed range 1-4; 9 set missing
+ENTORHINAL,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+PARAHIPPOCAMPAL,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+FUSIFORM,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+MIDDLETEMPORAL,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+INFERIORTEMPORAL,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+PRECUNEUS,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+POSTERIORCINGULATE,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit
+INFERIORPARIETAL,MRI,Structural imaging,Quantitative continuous,MRI feature,Mean of left and right hemisphere GVOL; confirm unit

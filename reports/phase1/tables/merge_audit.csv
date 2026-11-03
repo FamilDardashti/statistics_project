@@ -1,0 +1,13 @@
+item,count
+UDS rows,1237
+UDS unique participants,1237
+UDS duplicated ID rows,0
+MRI rows,1237
+MRI unique participants,1237
+MRI duplicated ID rows,0
+Participants in both files,1237
+UDS participants without MRI record,0
+MRI participants without UDS record,0
+Final UDS+MRI participants,1237
+NACCUDSD disagreements between files,0
+Participants with CDRSUM and Entorhinal available,1236
